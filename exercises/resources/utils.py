@@ -1,7 +1,7 @@
 
 def read_words():
     """
-    Return a list of the wordss in words.txt
+    Returns a list of the words in words.txt
     """
     t = list()
     fin = open("./exercises/resources/words.txt")
