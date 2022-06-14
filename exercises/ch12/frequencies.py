@@ -4,15 +4,6 @@
 from exercises.ch11.lecture import histogram
 
 
-def read_words():
-    t = list()
-    fin = open("./exercises/resources/words.txt")
-    for line in fin:
-        word = line.strip()
-        t.append(word)
-    return t
-
-
 def most_frequent(text):
     d = histogram(text.replace("\n", ""))
     t = list()
