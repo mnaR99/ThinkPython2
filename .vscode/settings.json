@@ -1,5 +1,7 @@
 {
     "terminal.integrated.env.osx": {
         "PYTHONPATH": "${workspaceFolder}"
-    }
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
